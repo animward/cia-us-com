@@ -1,20 +1,22 @@
-/* Site override: cia-us.com */
+/* EGEX Network — HOLDCO/NVIDIA brand compliance */
 :root {
---color-primary: #8b0000;
---color-primary-dim: #6b0000;
---color-primary-bright: #b22222;
---color-bg: #f5f0e8;
---color-surface: #ede8dc;
---color-surface-elevated: #e5dfd0;
---color-text: #1a1a1a;
---color-text-muted: #4a4a4a;
---color-border: rgba(139, 0, 0, 0.2);
---color-border-strong: rgba(139, 0, 0, 0.3);
---color-glow: rgba(139, 0, 0, 0.4);
---font-heading: Georgia, 'Times New Roman', serif;
---font-body: 'Courier New', Courier, monospace;
-		--hero-title-color: #00ff41;
+  --color-primary: #76b900;
+  --color-primary-dim: #4a7300;
+  --color-primary-bright: #96e600;
+  --color-bg: #0b0b0b;
+  --color-surface: #131313;
+  --color-surface-elevated: #333a41;
+  --color-surface-glass: rgba(11,11,11,0.85);
+  --color-text: #ffffff;
+  --color-text-muted: rgba(255,255,255,0.55);
+  --color-text-dim: rgba(255,255,255,0.25);
+  --color-border: rgba(118,185,0,0.1);
+  --color-border-strong: rgba(118,185,0,0.28);
+  --color-glow: rgba(118,185,0,0.4);
+  --font-heading: 'DejaVu Sans Mono', 'Courier New', monospace;
+  --font-body: 'DejaVu Sans Mono', 'Courier New', monospace;
 }
+
 
 body.theme-minimal {
 	background: var(--color-bg);
